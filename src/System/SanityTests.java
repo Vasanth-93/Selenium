@@ -22,7 +22,7 @@ public class SanityTests {
 		boolean s1 =driver.findElement(By.cssSelector(".gmail-nav__nav-link.gmail-nav__nav-link__sign-in")).isEnabled();
 		System.out.println("Sign in button is enabled -"+ s1);
 		driver.findElement(By.cssSelector(".gmail-nav__nav-link.gmail-nav__nav-link__sign-in")).click();
-		
+		//hai vasanth
 		driver.findElement(By.xpath(".//*[@id='identifierId']")).sendKeys("vasanthb868@gmail.com");
 		boolean s2 =driver.findElement(By.cssSelector(".RveJvd.snByac")).isEnabled();
 		System.out.println("next button at mail Id entry is enabled -"+ s2);
